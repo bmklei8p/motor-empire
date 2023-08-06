@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(251, 251, 251);
+}
+
+input {
+  background-color: rgb(251, 251, 251);
+}
+
+select {
+  background-color: rgb(251, 251, 251);
+}
+
+.call-to-action {
+  background-color: #304ff9;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  text-align: center;
+  transition-duration: 0.2s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.call-to-action:hover {
+  background-color: #304ff9;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.section1-container { 
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+
+.section2-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1000px) {
+  .section1-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section2-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+  

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-currency-input-field": "^3.6.9",
+    "react-google-fonts": "^1.2.1",
+    "react-phone-number-input": "^3.2.12"
+  }
+}
