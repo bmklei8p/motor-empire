@@ -1,8 +1,9 @@
-# CarCar
+# Motor Empire
 
 Team:
 
 Bryan Kleinberg - Service
+
 Klaudia Pietrzak - Sales
 
 ## Design
